@@ -1,0 +1,111 @@
+
+
+body {
+  background: radial-gradient(circle at top, #3b0066, #000 70%);
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.phone {
+  width: 360px;
+  height: 700px;  
+  padding: 10px;  
+  display: flex;
+  flex-direction: column;
+}
+
+.status-bar {
+  height: 20px;
+}
+
+.player {
+  flex: 1;
+  border-radius: 30px;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top {
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.album {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.info {
+  text-align: center;
+}
+
+.info h2 {
+  color: #172AFA;
+}
+
+.info p {
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+.progresso {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 11px;
+}
+
+.progresso input {
+  flex: 1;
+  appearance: none;
+  height: 4px;
+  border-radius: 10px;
+  background: linear-gradient(
+    to right,
+    #172AFA 0%,
+    #172AFA 30%,
+    #333 30%,
+    #333 100%
+  );
+}
+
+.progresso input::-webkit-slider-thumb {
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  background: #172AFA;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #172AFA;
+}
+
+.controles {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.controles button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+
+.play {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #ff5f00;
+  color: black;
+} 
